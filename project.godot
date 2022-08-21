@@ -13,9 +13,21 @@ _global_script_classes=[ {
 "class": "HexCell",
 "language": "GDScript",
 "path": "res://Scripts/HexCell.gd"
+}, {
+"base": "Node",
+"class": "HexCoordinates",
+"language": "GDScript",
+"path": "res://Scripts/HexCoordinates.gd"
+}, {
+"base": "Node",
+"class": "HexCoordinatesHelper",
+"language": "GDScript",
+"path": "res://Scripts/HexCoordinatesHelper.gd"
 } ]
 _global_script_class_icons={
-"HexCell": ""
+"HexCell": "",
+"HexCoordinates": "",
+"HexCoordinatesHelper": ""
 }
 
 [application]

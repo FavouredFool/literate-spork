@@ -1,17 +1,8 @@
 extends Node2D
 class_name HexCell
 
+var coordinates : HexCoordinates
+	
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func set_label():
+	$TextControl/CoordinateLabel.append_bbcode("[center][color=black]" + coordinates.to_string_seperate_lines() + "[/color][/center]")
